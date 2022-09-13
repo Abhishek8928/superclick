@@ -1,0 +1,67 @@
+
+/* using icons from bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.pm{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: system-ui;
+}
+.logo{
+    width:60px;
+}
+.reSize{
+    width:100%;
+}
+.nav-link li a{
+    text-decoration: none;
+    color:white;
+    padding:8px 20px;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+}
+.super-nav-link{
+    position: sticky;
+    top:0;
+    height:13vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 38px;
+
+}
+.col{
+    color:#fff;
+    font-size: 24px;
+    padding:0px 10px;
+}
+.inner-card{
+    width:324px;
+}
+
+.m-5{
+    margin:4px 0px;
+}
+.outer-card{
+    /* margin:0px 4%; */
+    padding:0px 60px;
+}
+.wrap-all{
+    display: flex;
+    gap:1rem;
+}
+.content{
+    padding:0px 10px;
+}
+.col-grey{
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+}
