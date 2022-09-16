@@ -23,7 +23,3 @@ setInterval(() => {
     let slideImg = document.getElementsByClassName('reSize-img');
     slideImg[1].src='./super.assest/AIR.jpg'
 }, 10000)
-
-loading = () => {
-    
-}
