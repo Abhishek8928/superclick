@@ -194,7 +194,7 @@ section{
 .flex-all-card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 }
