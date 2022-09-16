@@ -1,81 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="super.css">
+    <title>Document</title>
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
 </head>
-<body>
-        <nav class="super-nav-link">
-            <div class="logo">
-            <img src="./img/squarelogo-1.png_x14485" alt="" class="reSize">
+
+<body onload="loading()">
+    <div class="loading">
+
+    </div>
+    <nav>
+        <div class="nav-logo">
+            <img src="./super.assest/asset 0.png" alt="logo" class="reSize-img">
         </div>
+
+        <ul class="nav-links">
+            <li><a href="">NEW ARRIVALS</a></li>
+            <li><a href="">FOOTWEAR</a></li>
+            <li><a href="">APPAREL</a></li>
+            <li><a href="">ACCESSORIES</a></li>
+            <li><a href="">THE BASEMENT</a></li>
+            <li><a href="">BRAND</a></li>
+            <li><a href="">HEAT</a></li>
+            <li><a href="">SALE</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <i class="bi bi-search text-light"></i>
+            <i class="bi bi-person text-light"></i>
+            <i class="bi bi-bag-dash text-light"></i>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-img" id="get-image">
+            <img src="./super.assest/asset 12.jpeg" alt="" class="reSize-img">
+        </div>
+    </header>
+    <div class="wrap-all-section">
+    <section class="m-5">
+
+            <h2 class="content">NEW ARRIVAL</h2>
+        
+        <div class="flex-wrap-card">
+            <div class="inner-card">
+                <img src="./super.assest/asset 3.webp" alt="" class="reSize-img">
+                <div class="card-content">
+                    <small class="">Nike</small>
+                    <div class="card-p">BLAZER LOWW 'SAIL/BLACK'</div>
+                    <span class="col-lg">₹8,525</span>
+                </div>
+            </div>
+            <div class="inner-card">
+                <img src="./super.assest/asset 4.webp" alt="" class="reSize-img">
+                <div class="card-content">
+                    <small class="">Nike</small>
+                    <div class="card-p">AIR MAX PLUS SE'WHITE'</div>
+                    <span class="col-lg">₹15,525</span>
+                </div>
+            </div>
+            <div class="inner-card">
+                <img src="./super.assest/asset 2.webp" alt="" class="reSize-img">
+                <div class="card-content">
+                    <small class="">Nike</small>
+                    <div class="card-p">WMN'S BLAZER 'JUMBO PINK'</div>
+                    <span class="col-lg">₹5,450</span>
+                </div>
+            </div>
+            <div class="inner-card">
+                <img src="./super.assest/asset 5.jpeg" alt="" class="reSize-img">
+                <div class="card-content">
+                    <small class="">Adiddas originals</small>
+                    <div class="card-p">NMD S1 'WHITE'</div>
+                    <span class="col-lg">₹54,050</span>
+                </div>
             
-            <ul class="nav-link">
-                <li><a href="">NEW ARRIVALS</a></li>
-                <li><a href="">FOOTWEAR</a></li>
-                <li><a href="">APPAREL</a></li>
-                <li><a href="">ACCESSORIES</a></li>
-                <li><a href="">THE BASEMENT</a></li>
-                <li><a href="">BRAND</a></li>
-                <li><a href="">HEAT</a></li>
-                <li><a href="">SALE</a></li> 
-            </ul>
-
-            <div class="searchUser">
-                <i class="bi bi-search col"></i>
-                <i class="bi bi-person col"></i>
-            </div>
-        </nav>
-
-        <section>
-            <div class="inner-container">
-                <img src="./img/2.jpg" alt="" class="reSize">
-            </div>
-        </section>
-
-        <section class="outer-card">
-            <h2>New Arrivals</h2>
-        <div class="wrap-all">
-           
-            <div class="inner-card">
-                <img src="./img/DC4769-112.jpg_x14485" alt="" class="reSize">
-                <div class="content">
-                    <small class="pm m-5">Nike</small>
-                    <div class="pm m-5 col-grey">WMN'S BLAZER LOW 77'WHITE/GREY'</div>
-                    <P class="pm m-5">$13020</P>
-                </div>
-            </div>
-            <div class="inner-card">
-                <img src="./img/GV9606.jpg_x14485" alt="" class="reSize">
-                <div class="content">
-                    <small class="pm m-5">Adidas</small>
-                    <div class="pm m-5 col-grey">WMN'S BLAZER LOW 77'WHITE/GREY'</div>
-                    <P class="pm m-5">$100500</P>
-                </div>
-            </div>
-            <div class="inner-card">
-                <img src="./img/DC4769-112.jpg_x14485" alt="" class="reSize">
-                <div class="content">
-                    <small class="pm m-5">Nike</small>
-                    <div class="pm m-5">WMN'S BLAZER LOW 77'WHITE/GREY'</div>
-                    <P class="pm m-5">$10320</P>
-                </div>
-                hyyuuu
-            </div>
-            <div class="inner-card">
-                <img src="./img/GX1988.jpg_x14485" alt="" class="reSize">
-                <div class="content">
-                    <small class="pm m-5">Nike</small>
-                    <div class="pm m-5 col-grey">WMN'S BLAZER LOW 77'WHITE/GREY'</div>
-                    <P class="pm m-5">$1020</P>
-                </div>
-            </div>
         </div>
-        </section>
-    
+        
+    </section>
+
+    <section class="m-5">
+        
+        <div class="flex-all-card">
+        <div class="all-card">
+            <img src="./super.assest/asset 9.jpeg" alt="" class="reSize-img">
+        </div>
+        <div class="all-card">
+            <img src="./super.assest/asset 10.jpeg" alt="" class="reSize-img">
+        </div>
+        <div class="all-card">
+            <img src="./super.assest/asset 11.jpeg" alt="" class="reSize-img">
+        </div>
+    </div>
+    </section>
+
+    <section class="m-6">
+        <h2 class="content">STORES</h2>
+        <div class="flex-stores-img">
+            <div class="all-store">
+                <img src="./super.assest/asset 21.jpeg" alt="" class="reSize-img">
+            </div>
+            <div class="all-store">
+                <img src="./super.assest/asset 22.jpeg" alt="" class="reSize-img">
+            </div>
+            <div class="all-store">
+                <img src="./super.assest/asset 23.jpeg" alt="" class="reSize-img">
+            </div>
+            <div class="all-store">
+                <img src="./super.assest/asset 20.webp" alt="" class="reSize-img">
+            </div>
+            
+        </div>
+    </section>
+</div>
+
+    <hr>
     <script src="./App.js"></script>
 </body>
+
 </html>
