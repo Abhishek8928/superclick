@@ -20,9 +20,9 @@
 
 </head>
 
-<body onload="">
-    <div class="loading">
-
+<body>
+    <!-- <div class="loading" onload="gifHandler()"> -->
+        <!-- <div class="loader-img"></div> -->
     </div>
     <!-- <nav>
         <div class="nav-logo">
@@ -48,10 +48,12 @@
             <i class="bi bi-bag-dash text-light"></i>
         </div>
     </nav> -->
-    <nav style="position:sticky;top:0;z-index: 1;" class="navbar navbar-expand-lg bg-black">
+
+<div  id="hide-all">
+    <nav style="position:sticky;top:0;z-index: 1" class="navbar navbar-expand-lg bg-black p-3">
         <div class="container-fluid">
         
-          <a class="navbar-brand" href="#"><img src="./super.assest/asset 0.png" class="reSize-img " alt="" height="50px"></a>
+          <a class="navbar-brand" href="#"><img src="./super.assest/asset 0.png" class="reSize-img " alt="" height="30px"></a>
           <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -407,8 +409,7 @@
       <section class="mb-4">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
+          repellat.
         </p>
       </section>
       <!-- Section: Text -->
@@ -453,9 +454,7 @@
               <li>
                 <a href="#!" class="text-white">Contact Us</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+             
             </ul>
           </div>
           <!--Grid column-->
@@ -471,12 +470,7 @@
               <li>
                 <a href="#!" class="text-white">Link 2</a>
               </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
+              
             </ul>
           </div>
           <!--Grid column-->
@@ -515,6 +509,7 @@
     </div>
     <!-- Copyright -->
   </footer>
+</div>
   <!-- Footer -->
     <script src="./App.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

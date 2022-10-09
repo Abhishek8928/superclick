@@ -23,3 +23,12 @@ console.log("App.js is connected");
 //     let slideImg = document.getElementsByClassName('reSize-img');
 //     slideImg[1].src='./super.assest/AIR.jpg'
 // }, 10000)
+
+
+setTimeout(gifHandler = () => {
+    let loader = document.getElementsByClassName('loading')[0];
+    let allContent = document.getElementById('hide-all');
+    loader.classList.add('d-none');
+    allContent.classList.remove('d-none');
+
+},3000)

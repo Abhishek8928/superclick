@@ -23,7 +23,6 @@ body {
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
 
 
 
@@ -35,7 +34,16 @@ body { font-family: sans-serif; }
     display: block;
   }
   
-
+.loading{
+    background: url(./circle-loader.gif) center no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-color: #000000;
+    /* background-size: 50% 10%; */
+    background-size: 20%;
+    /* background-size: cover; */
+}
   
   
 
