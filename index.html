@@ -21,33 +21,10 @@
 </head>
 
 <body>
-    <div class="loading" onload="gifHandler()"> -->
-        <div class="loader-img"></div>
-    </div>
-    <!-- <nav>
-        <div class="nav-logo">
-            <img src="./super.assest/asset 0.png" alt="logo" class="reSize-img">
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="">NEW ARRIVALS</a></li>
-            <li><a href="">FOOTWEAR</a></li>
-            <li><a href="">APPAREL</a></li>
-            <li><a href="">ACCESSORIES</a></li>
-            <li><a href="">THE BASEMENT</a></li>
-            <li><a href="">BRAND</a></li>
-            <li><a href="">HEAT</a></li>
-            <li><a href="">SALE</a></li>
-            <a href="tel:+918928862682">call</a>
-            <a href="mailto:sharmaabhi8430@gmail.com?subject=demo &body=demo-content">mail</a>
-        </ul>
-
-        <div class="nav-icons">
-            <i class="bi bi-search text-light"></i>
-            <i class="bi bi-person text-light"></i>
-            <i class="bi bi-bag-dash text-light"></i>
-        </div>
-    </nav> -->
+    <!-- <div class="loading" onload="gifHandler()"> -->
+        <!-- <div class="loader-img"></div>
+    </div> -->
+    
 
 <div  id="hide-all">
     <nav style="position:sticky;top:0;z-index: 1" class="navbar navbar-expand-lg bg-black p-3">
@@ -60,14 +37,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Link</a>
+                <a class="nav-link text-white" href="#">Product</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  BRAND
+                  Store
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">MEN</a></li>
@@ -77,16 +54,51 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white">SALE</a>
+                <a class="nav-link text-white">Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="">Review</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            
+              <button type="button" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#exampleModal">Login Now</button>
           </div>
         </div>
       </nav>
+
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> -->
+        <!-- Launch demo modal
+    </button> -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>Login Page</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="display-tag" class="alert alert-success d-none">New Student Enrolled</p>
+                <div class="form-floating mb-4">
+                    <input type="text" class="form-control" id="input-field" placeholder="Username"
+                        onkeydown="userNameHandler()">
+                    <label for="input-field">Username</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <input type="email" class="form-control" id="input-field2" placeholder="example@gmail.com">
+                    <label for="input-field">example@gmail.com</label>
+                </div>
+                <button class="btn btn-primary mb-3" onclick="enrollHandler()">Login Now</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
       <!-- <div style="width:98.92vw;" class="carousel" data-flickity='{ "autoPlay": 1500 }'>
         <div class="carousel-cell"><img src="./super.assest/asset 12.jpeg" alt="" class="reSize-img"></div>
         <div class="carousel-cell"><img src="./super.assest/asset 14.jpeg" alt="" class="reSize-img"></div>
@@ -289,7 +301,47 @@
             <p>100% Secure Checkout <br>  UPI / Debit Card / Credit Card/ Net Banking</p>
         </div>
     </div>
-
+    <hr>
+    <section class="m-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Lorem ipsum dolor sit amet consectetur.
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis deserunt et non, itaque alias ab eveniet ut repellat voluptate perferendis ad expedita labore laborum voluptatum! Necessitatibus sint omnis dolor impedit.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Lorem ipsum dolor sit amet consectetur.
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In similique recusandae, ea aliquid quia odit quaerat excepturi animi possimus earum.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos neque laborum unde esse reiciendis nam ratione minima accusamus facilis laudantium.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- <footer>
         <div class="wrap-footer">

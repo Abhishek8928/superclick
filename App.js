@@ -31,4 +31,39 @@ setTimeout(gifHandler = () => {
     loader.classList.add('d-none');
     allContent.classList.remove('d-none');
 
-},3000)
+}, 3000)
+
+
+
+userNameHandler = () => {
+    var userNameValue = document.getElementById('input-field');
+    userNameValue.classList.remove('is-invalid');
+    userNameValue.classList.remove('is-valid');
+    if (userNameValue.value.length > 6)
+    {
+        userNameValue.classList.add('is-valid');
+    }
+    else {
+        userNameValue.classList.add('is-invalid');
+    }
+}
+let userArray=[]
+enrollHandler = () => {
+    let displayMsg = document.getElementById('display-tag');
+    let userNameValue = document.getElementById('input-field');
+    let userEmailValue = document.getElementById('input-field2');
+
+    let user = {
+        username: userNameValue,
+        useremail: userEmailValue
+    }
+    userArray.push(user);
+    userNameValue.value = '';
+    userEmailValue.value = '';
+    userNameValue.classList.remove('is-valid');
+
+    displayMsg.classList.remove('d-none');
+    setInterval(() => {
+        displayMsg.classList.add('d-none')
+    },6000)
+}
